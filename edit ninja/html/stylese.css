@@ -1,0 +1,129 @@
+#editingcon{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    text-align: center;
+    height: 450px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+#editingcon2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    text-align: center;
+    height: 450px;
+    margin-left: 140px;
+    margin-right: 58px;
+}
+
+.vs{
+    display: inline-block;
+    transition: 0.5s;
+}
+
+
+.vs button{
+    background-color:white ;
+    border: 0px;
+    border-radius: 10px;
+
+}
+.vs button:hover{
+    background-color: rgba(190,4,88,255);
+}
+
+
+.vs video{
+   
+    height: 300.4px;
+    width: 169px;
+    transition: 0.5s;
+    border-radius: 30px;
+
+}
+
+.vs video:hover{
+   
+    height: 350.2px;
+    width: 197px;
+    transition: 0.5s;
+    filter: drop-shadow(0 0 5px white);
+}
+
+.vs:hover{
+    
+    
+    text-shadow: 0 0 50px rgba(190,4,88,255);
+}
+
+#noth{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+#cus{
+    text-align: center;
+    height: 50px;
+    display: flex;
+}
+
+
+
+#cus button{
+    width: 300px;
+    height: 80px;
+    border-radius: 50px;
+}
+
+#cus button:hover{
+    background-color:rgba(190,4,88,255) ;
+}
+
+#cus p{
+    color: black;
+}
+
+#cus button{
+    border: 0px;
+}
+
+#cus button img{
+    filter: drop-shadow(0 0 50px black);
+}
+
+#price{
+    margin: 100px 0 0 200px;
+    width: 70%;
+    height: 500px;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    background-color: rgba(190,4,88,255);
+    border-radius: 50px;
+    margin-bottom: 100px;
+}
+
+#price img{
+    width: 10%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: all ease-in-out 0.5s;
+}
+
+#price img:hover{
+    width: 25%;
+    height: 100%;
+
+
+}
+
+#price img:not(:hover){
+    filter: grayscale(100%);
+    
+}

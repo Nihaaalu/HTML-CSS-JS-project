@@ -1,0 +1,122 @@
+#h1 {
+    text-align: center;
+    font-size: 50px;
+    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#h1:hover{
+    color: rgba(190,4,88,255);
+    
+}
+
+
+#about{
+    display: flex;
+    justify-content:space-between
+}
+#nihal{
+    margin-left: 500px;
+}
+#nihal img{
+    height: 300px;
+    
+    border-radius: 150px;
+
+}
+
+#nihal img:hover{
+    filter: drop-shadow(0 0 50px rgba(190,4,88,255));
+
+}
+
+#expl{
+    width: 600px;
+    text-align: left;
+    margin-right: 280px;
+}
+
+#expl h2{
+    font-size: 40px;
+
+}
+
+#expl h3{
+    font-size: 25px;
+    margin-top: -40px; 
+    color:rgba(190,4,88,255) ;
+}
+
+#expl p{
+    font-size: 22px;
+    text-align: left;
+}
+
+
+#vdoab{
+    background-color: rgba(190,4,88,120);
+    display: flex;
+    margin-left: 130px;
+    margin-right: 200px;
+    padding-top:100px;
+    transition: 0.5s;
+}
+
+#vdo1{
+    display: inline-block;
+    margin: 100px;
+}
+
+#vdo1 video{
+    height: 280px;
+    transition: 0.5s;}
+#vdo1 video:hover{
+    height: 300px;
+    transition: 0.5s;
+}
+
+
+
+#vdo2{
+    display: inline-block;
+    margin: 100px;
+    transition: 0.5s;
+}
+#vdo2 video{
+    height: 280px;
+    transition: 0.5s;
+}
+
+#vdo2 video:hover{
+    height: 300px;
+    transition: 0.5s;
+}
+
+
+
+
+
+#vdo3{
+    display: inline-block;
+    margin: 100px;
+    transition: 0.5s;
+}
+#vdo3 video{
+    height: 280px;
+    transition: 0.5s;
+}
+#vdo3 video:hover{
+    height: 300px;
+    transition: 0.5s;
+}
+
+
+
+
+#title{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: -150px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-
+}
