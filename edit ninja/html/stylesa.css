@@ -56,6 +56,7 @@
 #vdoab{
     
     display: flex;
+    justify-content: space-evenly;
     margin-left: 130px;
     margin-right: 200px;
 
@@ -65,13 +66,13 @@
 
 #vdo1{
     display: inline-block;
-    margin-left: 100px;
-    margin-right: 100px;
+    
     margin-bottom: 100px;
 }
 
 #vdo1 video{
     height: 280px;
+    border-radius: 30px;
     transition: 0.5s;}
 #vdo1 video:hover{
     height: 300px;
@@ -82,14 +83,14 @@
 
 #vdo2{
     display: inline-block;
-    margin-left: 100px;
-    margin-right: 100px;
+    
     margin-bottom: 100px;
     transition: 0.5s;
 }
 #vdo2 video{
     height: 280px;
     transition: 0.5s;
+    border-radius: 30px;
 }
 
 #vdo2 video:hover{
@@ -103,14 +104,15 @@
 
 #vdo3{
     display: inline-block;
-    margin-left: 100px;
-    margin-right: 100px;
+    
     margin-bottom: 100px;
     transition: 0.5s;
 }
 #vdo3 video{
     height: 280px;
     transition: 0.5s;
+    border-radius: 30px;
+    
 }
 #vdo3 video:hover{
     height: 300px;

@@ -103,6 +103,8 @@
     display: flex;
     gap: 10px;
     background-color: rgba(190,4,88,255);
+     background-image: url(ninja.png); 
+    
     border-radius: 50px;
     margin-bottom: 100px;
 }
